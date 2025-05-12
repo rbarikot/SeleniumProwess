@@ -1,0 +1,300 @@
+2025-05-12 07:59:53.387 [main] INFO  com.UI.config.ConfigManager - Configuration properties loaded successfully
+2025-05-12 07:59:53.588 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports initialized. Report will be saved to: test-output/reports\TestReport_20250512_075953.html
+2025-05-12 07:59:53.588 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite setup completed
+2025-05-12 07:59:53.593 [main] INFO  com.UI.listeners.TestListener - Test Suite started: Dummy Site Tests
+2025-05-12 07:59:53.593 [main] INFO  com.UI.listeners.AllureListener - Test Suite started: Dummy Site Tests
+2025-05-12 07:59:53.619 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin
+2025-05-12 07:59:53.621 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=true
+2025-05-12 07:59:54.075 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.utils.ExcelUtil - Successfully read 2 rows from Excel file: src/test/resources/testdata/login_test_data.xlsx
+2025-05-12 07:59:54.077 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 07:59:54.078 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 07:59:54.078 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=true
+2025-05-12 08:00:02.923 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:02.994 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin
+2025-05-12 08:00:02.994 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin
+2025-05-12 08:00:03.249 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:03.255 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:00:03.255 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:00:03.255 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:00:03.255 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:00:06.688 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:06.688 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:00:06.789 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:06.790 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:00:07.393 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:00:07.454 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:00:07.477 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:00:07.501 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:00:07.503 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin
+2025-05-12 08:00:07.503 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin
+2025-05-12 08:00:07.510 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin
+2025-05-12 08:00:07.550 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:00:07.606 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:00:07.606 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Successfully logged in
+2025-05-12 08:00:07.606 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:00:07.606 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:00:07.609 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:00:07.643 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:00:07.647 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin2
+2025-05-12 08:00:07.648 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=true
+2025-05-12 08:00:07.739 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:00:07.741 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:00:07.741 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:00:07.741 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=true
+2025-05-12 08:00:08.348 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:08.350 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin2
+2025-05-12 08:00:08.351 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin2
+2025-05-12 08:00:08.411 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:08.413 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:00:08.413 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:00:08.413 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:00:08.413 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:00:11.886 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:11.886 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:00:11.940 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:11.940 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:00:12.674 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:00:12.725 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:00:13.711 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:00:13.711 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Failed to log in
+2025-05-12 08:00:13.711 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:00:13.711 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:00:13.713 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:00:13.883 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:00:13.886 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:00:13.941 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:00:13.992 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:00:13.992 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:00:13.992 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:00:13.993 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin2
+2025-05-12 08:00:14.183 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:00:14.185 [main] INFO  com.UI.listeners.AllureListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:00:14.185 [main] INFO  com.UI.listeners.TestListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:00:14.185 [main] INFO  com.UI.listeners.TestListener - Test Results Summary - Passed: 4, Failed: 0, Skipped: 0
+2025-05-12 08:00:14.384 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports flushed to disk
+2025-05-12 08:00:14.384 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite completed
+2025-05-12 08:00:49.577 [main] INFO  com.UI.config.ConfigManager - Configuration properties loaded successfully
+2025-05-12 08:00:49.721 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports initialized. Report will be saved to: test-output/reports\TestReport_20250512_080049.html
+2025-05-12 08:00:49.721 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite setup completed
+2025-05-12 08:00:49.738 [main] INFO  com.UI.listeners.TestListener - Test Suite started: Dummy Site Tests
+2025-05-12 08:00:49.738 [main] INFO  com.UI.listeners.AllureListener - Test Suite started: Dummy Site Tests
+2025-05-12 08:00:49.768 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin
+2025-05-12 08:00:49.768 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:00:50.112 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.utils.ExcelUtil - Successfully read 2 rows from Excel file: src/test/resources/testdata/login_test_data.xlsx
+2025-05-12 08:00:50.115 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:00:50.115 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:00:50.115 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:00:51.228 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:51.228 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:51.286 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin
+2025-05-12 08:00:51.286 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin
+2025-05-12 08:00:51.286 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:00:51.286 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:00:51.286 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:00:51.286 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:00:54.413 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:54.413 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:00:54.823 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:54.824 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:00:55.433 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:00:55.500 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:00:55.536 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:00:55.536 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Successfully logged in
+2025-05-12 08:00:55.536 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:00:55.536 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:00:55.559 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:00:55.716 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:00:55.721 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:00:55.721 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:00:55.721 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:00:56.371 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:56.376 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:00:56.376 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:00:56.376 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:00:56.376 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:00:56.972 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:00:57.033 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:00:57.093 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:00:57.093 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin
+2025-05-12 08:00:57.094 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin
+2025-05-12 08:00:57.099 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin
+2025-05-12 08:00:57.270 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:00:57.272 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin2
+2025-05-12 08:00:57.273 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:00:57.918 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:00:57.922 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin2
+2025-05-12 08:00:57.922 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin2
+2025-05-12 08:00:59.989 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:00:59.989 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:01:00.745 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:01:00.794 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:01:00.849 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:01:00.849 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Failed to log in
+2025-05-12 08:01:00.849 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:01:00.849 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:01:00.850 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:01:01.019 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:01:01.618 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:01:01.618 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:01:02.337 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:01:02.386 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:01:13.711 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:01:13.715 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:01:13.715 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:01:13.718 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin2
+2025-05-12 08:01:14.036 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:01:14.036 [main] INFO  com.UI.listeners.AllureListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:01:14.036 [main] INFO  com.UI.listeners.TestListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:01:14.036 [main] INFO  com.UI.listeners.TestListener - Test Results Summary - Passed: 4, Failed: 0, Skipped: 0
+2025-05-12 08:01:14.438 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports flushed to disk
+2025-05-12 08:01:14.438 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite completed
+2025-05-12 08:13:33.896 [main] INFO  com.UI.config.ConfigManager - Configuration properties loaded successfully
+2025-05-12 08:13:34.063 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports initialized. Report will be saved to: test-output/reports\TestReport_20250512_081333.html
+2025-05-12 08:13:34.063 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite setup completed
+2025-05-12 08:13:34.075 [main] INFO  com.UI.listeners.TestListener - Test Suite started: Dummy Site Tests
+2025-05-12 08:13:34.075 [main] INFO  com.UI.listeners.AllureListener - Test Suite started: Dummy Site Tests
+2025-05-12 08:13:34.101 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin
+2025-05-12 08:13:34.101 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:13:34.525 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.utils.ExcelUtil - Successfully read 2 rows from Excel file: src/test/resources/testdata/login_test_data.xlsx
+2025-05-12 08:13:34.525 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:13:34.525 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:13:34.525 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:13:35.693 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:13:35.696 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:13:35.753 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:13:35.753 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin
+2025-05-12 08:13:35.753 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:13:35.753 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin
+2025-05-12 08:13:35.753 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:13:35.755 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:13:39.376 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:13:39.376 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:13:39.413 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:13:39.413 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:13:40.102 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:13:40.102 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:13:40.171 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:13:40.171 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:13:40.229 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:13:40.236 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin
+2025-05-12 08:13:40.236 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin
+2025-05-12 08:13:40.243 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin
+2025-05-12 08:13:40.372 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:13:40.372 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin2
+2025-05-12 08:13:40.372 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:13:41.076 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:13:41.076 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin2
+2025-05-12 08:13:41.076 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin2
+2025-05-12 08:13:45.000 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:13:45.000 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:13:45.736 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:13:45.849 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:13:45.912 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:13:45.912 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:13:45.912 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:13:45.912 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin2
+2025-05-12 08:13:46.038 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:13:51.664 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:13:51.666 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Successfully logged in
+2025-05-12 08:13:51.666 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:13:51.666 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:13:51.671 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:13:51.862 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:13:51.862 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:13:51.862 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:13:51.862 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:13:52.622 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:13:52.622 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:13:52.622 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:13:52.622 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:13:52.622 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:13:56.381 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:13:56.381 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:13:57.104 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:13:57.153 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:13:57.203 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:13:57.203 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Failed to log in
+2025-05-12 08:13:57.203 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:13:57.203 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:13:57.203 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:13:57.409 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:13:57.409 [main] INFO  com.UI.listeners.AllureListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:13:57.409 [main] INFO  com.UI.listeners.TestListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:13:57.409 [main] INFO  com.UI.listeners.TestListener - Test Results Summary - Passed: 4, Failed: 0, Skipped: 0
+2025-05-12 08:13:57.555 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports flushed to disk
+2025-05-12 08:13:57.555 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite completed
+2025-05-12 08:22:09.581 [main] INFO  com.UI.config.ConfigManager - Configuration properties loaded successfully
+2025-05-12 08:22:09.739 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports initialized. Report will be saved to: test-output/reports\TestReport_20250512_082209.html
+2025-05-12 08:22:09.739 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite setup completed
+2025-05-12 08:22:09.739 [main] INFO  com.UI.listeners.TestListener - Test Suite started: Dummy Site Tests
+2025-05-12 08:22:09.739 [main] INFO  com.UI.listeners.AllureListener - Test Suite started: Dummy Site Tests
+2025-05-12 08:22:09.771 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin
+2025-05-12 08:22:09.771 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:22:10.120 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.utils.ExcelUtil - Successfully read 2 rows from Excel file: src/test/resources/testdata/login_test_data.xlsx
+2025-05-12 08:22:10.120 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:22:10.120 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:22:10.120 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:22:11.241 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:22:11.241 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:22:11.299 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:22:11.299 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=admin, expectedError=, shouldSucceed=true, username=admin}
+2025-05-12 08:22:11.299 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:22:11.299 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin
+2025-05-12 08:22:11.299 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin
+2025-05-12 08:22:11.299 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:22:14.952 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:22:14.952 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:22:15.147 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:22:15.147 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:22:15.674 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:22:15.729 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:22:15.782 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:22:15.782 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Successfully logged in
+2025-05-12 08:22:15.784 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:22:15.784 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:22:15.790 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:22:15.882 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:22:15.946 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:22:15.963 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:22:15.966 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Starting test: testLoginWithExcelData
+2025-05-12 08:22:15.966 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:22:15.966 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:22:15.998 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:22:15.999 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin
+2025-05-12 08:22:15.999 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin
+2025-05-12 08:22:16.001 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin
+2025-05-12 08:22:16.169 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:22:16.173 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Starting test: testSuccessfulLogin2
+2025-05-12 08:22:16.173 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - Initializing WebDriver: Browser=chrome, Mode=local, Headless=false
+2025-05-12 08:22:16.615 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:22:16.618 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test started: testLoginWithExcelData
+2025-05-12 08:22:16.618 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test parameters: {password=12234.0, expectedError=, shouldSucceed=false, username=admin}
+2025-05-12 08:22:16.618 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Starting test: testLoginWithExcelData
+2025-05-12 08:22:16.618 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Testing login with username: admin
+2025-05-12 08:22:16.786 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver initialized successfully
+2025-05-12 08:22:16.786 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test started: testSuccessfulLogin2
+2025-05-12 08:22:16.786 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Starting test: testSuccessfulLogin2
+2025-05-12 08:22:19.756 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:22:19.756 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:22:20.380 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to URL: http://10.119.32.127:8084/da/
+2025-05-12 08:22:20.380 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Navigated to Login page
+2025-05-12 08:22:20.465 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:22:20.515 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:22:20.576 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:22:20.577 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Failed to log in
+2025-05-12 08:22:20.577 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.AllureListener - Test passed: testLoginWithExcelData
+2025-05-12 08:22:20.577 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.listeners.TestListener - Test passed: testLoginWithExcelData
+2025-05-12 08:22:20.577 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.tests.ExcelDrivenLoginTest - Test passed: testLoginWithExcelData
+2025-05-12 08:22:20.682 [TestNG-test=Dummy Site Tests-1] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:22:21.051 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to User name field
+2025-05-12 08:22:21.113 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Sent Value to Password field
+2025-05-12 08:22:21.182 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.pages.LoginPage - Clicked user profile link
+2025-05-12 08:22:21.182 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.AllureListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:22:21.182 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.listeners.TestListener - Test passed: testSuccessfulLogin2
+2025-05-12 08:22:21.182 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.tests.LoginTest - Test passed: testSuccessfulLogin2
+2025-05-12 08:22:21.428 [TestNG-test=Dummy Site Tests-2] INFO  com.UI.drivers.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-05-12 08:22:21.428 [main] INFO  com.UI.listeners.AllureListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:22:21.428 [main] INFO  com.UI.listeners.TestListener - Test Suite finished: Dummy Site Tests
+2025-05-12 08:22:21.428 [main] INFO  com.UI.listeners.TestListener - Test Results Summary - Passed: 4, Failed: 0, Skipped: 0
+2025-05-12 08:22:21.607 [main] INFO  com.UI.reports.ExtentReportManager - ExtentReports flushed to disk
+2025-05-12 08:22:21.607 [main] INFO  com.UI.tests.ExcelDrivenLoginTest - Test Suite completed
