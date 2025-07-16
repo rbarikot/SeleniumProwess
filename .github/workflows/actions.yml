@@ -1,18 +1,24 @@
-name: Docker Image CI
+name: Selenium Grid Docker Test Execution
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-
-  build:
-
+  run-selenium-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - name: Build the Docker image
-        run: docker build . --file Dockerfile
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Compose
+        run: |
+          docker-compose version
+
+      - name: Build and run Docker Compose
+        run: |
+          docker-compose up --build --abort-on-container-exit
