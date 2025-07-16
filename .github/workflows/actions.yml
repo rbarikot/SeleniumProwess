@@ -15,10 +15,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Docker Compose
+      - name: Set up Docker
         run: |
-          docker-compose version
+          docker --version
+          docker compose version  # Note: no dash
 
-      - name: Build and run Docker Compose
+      - name: Build and run containers
         run: |
-          docker-compose up --build --abort-on-container-exit
+          docker compose up --build --abort-on-container-exit
