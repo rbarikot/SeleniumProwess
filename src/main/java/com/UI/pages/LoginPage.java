@@ -39,6 +39,7 @@ public class LoginPage extends BasePage {
      */
     public void navigateToLoginPage() {
         navigateToBaseUrl();
+        System.out.println("Navigated to Login Page");
         LOGGER.info("Navigated to Login page");
     }
     /**
