@@ -27,7 +27,7 @@ public class BaseTest {
 
     // Constants for test data
     //protected static final String DEFAULT_SHEET = "TestData";
-    //protected static final String KUBE_YAML_PATH="kubernetes/Selenium-grid.yaml";
+
     @BeforeSuite(alwaysRun = true)
     public void setupSuite() throws InterruptedException {
         /*System.out.println("Kubernetes Start");

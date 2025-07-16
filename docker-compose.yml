@@ -1,8 +1,8 @@
-version: '3'
+version: '3.8'
 
 services:
   selenium-hub:
-    image: selenium/hub:latest
+    image: selenium/hub:4.21.0
     container_name: selenium-hub
     ports:
       - "4444:4444"
@@ -11,7 +11,7 @@ services:
       - GRID_BROWSER_TIMEOUT=300
 
   chrome:
-    image: selenium/node-chrome:latest
+    image: selenium/node-chrome:4.21.0
     container_name: chrome
     depends_on:
       - selenium-hub
@@ -26,7 +26,7 @@ services:
       - /dev/shm:/dev/shm
 
   firefox:
-    image: selenium/node-firefox:latest
+    image: selenium/node-firefox:4.21.0
     container_name: firefox
     depends_on:
       - selenium-hub
@@ -42,17 +42,10 @@ services:
 
   test-runner:
     build:
-      context: .
       dockerfile: Dockerfile
-    container_name: test-runner
     depends_on:
       - selenium-hub
       - chrome
       - firefox
-    environment:
-      - execution.mode=grid
-      - grid.url=http://selenium-hub:4444/wd/hub
-      - browser=chrome
-      - headless=true
     volumes:
       - ./test-output:/app/test-output

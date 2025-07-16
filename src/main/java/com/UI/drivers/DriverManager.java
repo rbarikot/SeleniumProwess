@@ -46,6 +46,8 @@ public class DriverManager {
         try {
             switch (executionMode) {
                 case "grid":
+                    driver = initializeRemoteDriver(browser, headless, executionMode);
+                    break;
                 case "remote":
                     driver = initializeRemoteDriver(browser, headless, executionMode);
                     break;
@@ -59,6 +61,7 @@ public class DriverManager {
             return driver;
         } catch (Exception e) {
             LOGGER.error("Failed to initialize WebDriver", e);
+            e.printStackTrace();
             throw new RuntimeException("Failed to initialize WebDriver", e);
         }
     }
