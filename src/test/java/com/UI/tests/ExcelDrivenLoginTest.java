@@ -31,7 +31,7 @@ public class ExcelDrivenLoginTest extends BaseTest {
         loginPage.fillUserName(username);
         loginPage.fillPassword(password);
         loginPage.clickSubmit();
-
+        System.out.println("Verifying user is logged in");
         if (shouldSucceed) {
             logger.info("Successfully logged in");
         } else {

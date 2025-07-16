@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
         loginPage.fillUserName();
         loginPage.fillPassword();
         loginPage.clickSubmit();
-
+        System.out.println("Verifying user is logged in    IIOOOOOO");
         ExtentReportManager.getTest().info("Verifying user is logged in");
         //Assert.assertTrue(homePage.isUserLoggedIn(), "User should be logged in");
 
@@ -44,6 +44,7 @@ public class LoginTest extends BaseTest {
         loginPage.fillUserName();
         loginPage.fillPassword();
         loginPage.clickSubmit();
+        System.out.println("Verifying user is logged in");
 
         ExtentReportManager.getTest().info("Verifying user is logged in");
 
