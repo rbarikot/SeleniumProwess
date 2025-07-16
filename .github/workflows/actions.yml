@@ -1,4 +1,4 @@
-name: Selenium Grid Docker Test Execution (Windows)
+name: Selenium Grid Docker Test Execution on Windows
 
 on:
   push:
@@ -15,25 +15,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Verify Docker installation
+      - name: Check Docker & Compose version
+        shell: pwsh
         run: |
-          docker version
-          docker-compose version  # Use space-based compose (v2)
+          docker --version
+          docker compose version  # ✅ space, not dash
 
-      - name: Build and run Docker Compose
+      - name: Build and run Docker containers
+        shell: pwsh
         run: |
-          docker-compose up --build --abort-on-container-exit
-
-      - name: Print test results
-        if: always()
-        run: |
-          if (Test-Path "test-output") {
-            Get-Content test-output\*.txt
-          }
-
-      - name: Upload test-output
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-output
-          path: test-output/
+          docker compose up --build --abort-on-container-exit
