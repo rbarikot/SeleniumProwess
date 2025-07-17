@@ -36,8 +36,9 @@ public class ExtentReportManager {
                 directory.mkdirs();
             }
 
-            String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-            String reportFilePath = REPORT_DIRECTORY + File.separator + "TestReport_" + timestamp + ".html";
+            //String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+            //String reportFilePath = REPORT_DIRECTORY + File.separator + "TestReport_" + timestamp + ".html";
+            String reportFilePath = REPORT_DIRECTORY + File.separator + "ExtentReport"+".html";
             ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportFilePath);
             sparkReporter.config().setTheme(Theme.STANDARD);
             sparkReporter.config().setDocumentTitle("Test Automation Report");
