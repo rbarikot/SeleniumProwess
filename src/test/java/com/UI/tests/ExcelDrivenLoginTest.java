@@ -22,12 +22,9 @@ public class ExcelDrivenLoginTest extends BaseTest {
         String password = testData.get("password");
         boolean shouldSucceed = Boolean.parseBoolean(testData.get("shouldSucceed"));
         String expectedError = testData.get("expectedError");
-
         logger.info("Testing login with username: {}", username);
-
         LoginPage loginPage = new LoginPage();
         loginPage.navigateToLoginPage();
-
         loginPage.fillUserName(username);
         loginPage.fillPassword(password);
         loginPage.clickSubmit();

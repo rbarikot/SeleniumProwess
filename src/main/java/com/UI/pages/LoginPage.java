@@ -6,9 +6,9 @@ public class LoginPage extends BasePage {
     public LoginPage() {
         super();
     }
-    public By username= By.id("login-username");
-    public By pwd= By.id("login-password");
-    public By submit= By.id("login-submit-btn");
+    public By username= By.id("email");
+    public By pwd= By.id("pass");
+    public By submit= By.xpath("//button[@name='login']");
     /**
      * Click submit Link
      */
