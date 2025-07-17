@@ -25,6 +25,7 @@ jobs:
           docker compose up --build --abort-on-container-exit
 
       - name: Upload Extent Report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
             name: Extent-Report
