@@ -48,4 +48,4 @@ services:
       - chrome
       - firefox
     volumes:
-      - ./test-output:/project/test-output
+      - ./test-output:/app/test-output
